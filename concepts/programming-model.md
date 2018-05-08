@@ -94,7 +94,7 @@ Flink程序本质上是并行分布的。在执行过程中，一个 *流* 包�
 
   - **摄入时间** 是事件进入Flink数据流源算符的时间。
 
-  - **处理事件** 是每一个执行时间操作的算符的本地时间。
+  - **处理时间** 是每一个执行时间操作的算符的本地时间。
 
 <img src="../fig/event_ingestion_processing_time.svg" alt="Event Time, Ingestion Time, and Processing Time" class="offset" width="80%" />
 
